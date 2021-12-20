@@ -14,18 +14,18 @@ body {
   border: 5px solid black;
   left: 0;
   position: absolute;
- background-image:url("background.jpg");
+ background-image:url("newBackground.jpg");
   background-size: cover;
 }
 
 #left-paddle {
-  background-color: white;
+  background-color: silver;
   left: 10px;
   height: 25px;
 }
 
 #right-paddle {
-  background-color: red;
+  background-color: steelblue;
   right: 10px;
 }
 
@@ -76,7 +76,7 @@ body {
 .ball {
   width: 20px;
   height: 20px;
-  background-color: white;
+  background-image:url("jupiterSmall.jpg");
   border-radius: 10px;
   position: absolute;
   left: 50px;
