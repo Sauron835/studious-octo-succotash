@@ -18,7 +18,7 @@ import {
   playDeferredSounds
 } from "./pong-audio.js";
 //Defaults for game objects
-import { Game, Ball, Paddle } from "./pong-classes.js";
+import { Game, Ball, Paddle } from "https://github.com/Sauron835/studious-octo-succotash/tree/main/javascript/pong-classes.js";
 //Game Events
 import {
   GameEvent,
@@ -34,9 +34,9 @@ import {
   muteControl,
   volumeUpControl,
   volumeDownControl
-} from "./pong-events.js";
+} from "https://github.com/Sauron835/studious-octo-succotash/tree/main/javascript/pong-events.js";
 //Utility functions
-import { clamp, scalerange, randomAdjust, boolToOnOff } from "./pong-util.js";
+import { clamp, scalerange, randomAdjust, boolToOnOff } from "https://github.com/Sauron835/studious-octo-succotash/tree/main/javascript/pong-util.js";
 //import * as Tone from "../lib/Tone.js";
 
 //GAME OBJECTS///DON'T CHANGE THESE
