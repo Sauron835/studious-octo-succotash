@@ -8,7 +8,7 @@ class soundFile {
   constructor(file, deferPlay) {
     //this.deferPlay = false;
     this.player = new Tone.Player({
-      url: "https://housercaspar.github.io/apple-eater/sounds/" + file,
+      url: "https://github.com/Sauron835/studious-octo-succotash/tree/main/sounds" + file,
       loop: false,
       autostart: false
     }).toMaster();
